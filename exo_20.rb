@@ -5,7 +5,6 @@ puts "Voici la pyramide : "
 pyramidBlock = "#"
 
 userNumber.times do
-
 	puts pyramidBlock
 	pyramidBlock = pyramidBlock + "#"
 end
