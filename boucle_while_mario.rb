@@ -19,6 +19,7 @@ while i < userNumber
 		end
 
 		print pyramidBlock
+
 		pyramidBlock = pyramidBlock + "#"
 		puts ""
 		i = i + 1

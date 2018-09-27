@@ -16,6 +16,17 @@ userNumber.times do
 		end
 
 		print pyramidBlock
+
+		#Mise en place du drapeau Mario :)
+		10.times do
+		print EmptySpace
+		end
+		if counterEmptySpace == userNumber - 1
+			print "<"
+		else
+			print "|"
+		end
+
 		pyramidBlock = pyramidBlock + "#"
 		puts ""
 end
